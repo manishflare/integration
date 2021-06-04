@@ -8,12 +8,12 @@
   scenarios:
    Choose Flight:
      requests:
-	 - label: blazedemo
+           - label: blazedemo
 	   method: GET
 	   url: http://blazedemo.com/
-	 - label: reserve
+	   - label: reserve
 	   method: POST
 	   url: http://blazedemo.com/reserve.php
 	   body:
-	     fromPort: Paris
+	   fromPort: Paris
 	   toPort: Buenos Aires;
